@@ -1,7 +1,7 @@
 # axum practice
 Just a pratice using axum
 
-### Implement CRUD for RESTful API
+### Implement CRUD in RESTful API
 
 - GET /tasks
 - GET /task/:id
