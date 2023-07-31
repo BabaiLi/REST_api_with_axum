@@ -1,1 +1,0 @@
-This is the source code of the article [CockroachDB with Gorilla/Mux](https://carlosmv.hashnode.dev/cockroachdb-as-a-database-with-gorillamux-or-go) I posted in my personal blog in [Hasnode](https://carlosmv.hashnode.dev/)

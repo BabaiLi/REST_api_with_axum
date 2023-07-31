@@ -1,0 +1,18 @@
+[package]
+name = "blog-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version="1.29.1", features = ["full"] }
+axum = "0.6.18"
+serde = "1.0.178"
+serde_json = "1.0.102"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3.17", features = ["env-filter"] }
+sqlx = { version = "0.7.1", features = ["runtime-tokio-native-tls", "json", "postgres"] }
+tower-http = { version = "0.4.1", features=["full"] }
+anyhow = "1.0.71"
+hyper = { version = "0.14", features = ["full"] }
